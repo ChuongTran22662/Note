@@ -19,6 +19,13 @@ Angular basic
   4. Class binding: [class.class_name] = "value"
   5. Style binding: [style.style_name] = "value"
   View -> component
+  1. Event biding: (event_name)="nameFunction($event)"
+  View -> Component -> View
+  1.Two-way binding: -  import FormsModule
+                     -  [(ngModel)]="value"
+                     -  Need name="name"
+  
+  
   
 Backend
 ASP.NET core/EF core
