@@ -24,9 +24,14 @@ Angular basic
   1.Two-way binding: -  import FormsModule
                      -  [(ngModel)]="value"
                      -  Need name="name"
+- Directive
+  1. ngIf
+  2. ngFor
+  3. ngSwitch
+  4. ngClass
+  5. ngStyle
   
-  
-  
+   
 Backend
 ASP.NET core/EF core
 - Linq
