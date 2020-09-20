@@ -7,10 +7,8 @@ Javascript
 - Typescript:
 - ES6: 
   1. Multiline string es6: console.log(`Fifteen is ${a + b} andnot ${2 * a + b}.`);
-
-
-
-Angular basic
+  
+Angular
 - Data binding
   Component -> View 
   1. Interpolation: {{ value }}
@@ -30,7 +28,6 @@ Angular basic
   3. ngSwitch
   4. ngClass
   5. ngStyle
-  
 - Input - Output
   @Input: - Parent -> child
           - Parent: [key]="value" -> child: @Input() key
@@ -41,11 +38,19 @@ Angular basic
            - () : Khai báo giá trị trả ra ngoài
            - (params).emit(value)
 - Pipe
-  
 - Template Reference Variables (tham chiếu đến một phần tử Dom hoặc directice trong template)
    Tempalte: #name or ref-name
    Component: @Viewchild('name1') name2: ElementRef
 - Lifecycle Hooks
+  1. Contructor (not lifecycle)
+  2. ngOnInit
+  3. ngOnDestroy
+  4. ngOnChanges -> ngOnDocheck
+  5. ngContent
+  6. ngAfterContentInit
+  7. ngAfterContentInit
+  8. ngAfterView, ngAfterViewCheched
+- Service (Dependency Injection)
    
 Backend
 ASP.NET core/EF core
